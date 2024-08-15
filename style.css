@@ -230,3 +230,25 @@ main{
     color: #fff;
     margin: 0;
   }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    clear: both;
+  }
+  
+  footer .credits {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    text-align: center;
+
+  }
+  
+  footer .credits p {
+    margin: 0;
+    text-align: center;
+
+  }
