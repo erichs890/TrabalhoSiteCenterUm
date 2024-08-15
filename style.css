@@ -1,0 +1,232 @@
+header {
+    display: flex; /* adicionado */
+    justify-content: center; /* adicionado */
+    align-items: center; /* adicionado */
+    gap: 100px;
+    background-color: rgb(36, 127, 29);
+    height: 75px;
+    position: sticky;
+    top: 0;
+}
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#navUl a{
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+#navUl a:hover{
+    transform: scale(1.1);
+}
+#logoCenterUm {
+    max-width: 170px;
+    padding: 5px;
+}
+#Titulo {
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+}
+#Subtitulo {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+}
+#fotoCenterUm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 22px;
+    padding: 15px;
+}
+
+#textoDiv {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#textoPrincipal {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    padding: 14px;
+}
+#textoA {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    display: inline-block;
+    padding: 2px;
+    box-sizing: border-box;
+}
+#textoA:hover {
+    transform: scale(1.1);
+}
+
+#navUl{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+#homeLi{
+    list-style-type: none;
+    margin-right: 17px;
+}
+#servicosLi{
+    list-style-type: none;
+    margin-right: 17px;
+    
+}
+#somosLi{
+    list-style-type: none;
+    margin-right: 17px;
+}
+#localLi{
+    list-style-type: none;
+
+}
+#servicosTitulo{
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#servicos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 57px;
+    margin: 0 auto;
+    border-top: 10px solid #000000;
+    padding-top: 50px;
+}
+#servicosLista {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#servicosLista li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+#servicosLista li b {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+#servicosLista li p {
+  font-size: 18px;
+  color: #666;
+  padding-top: 10px;
+}
+
+#somos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    margin: 0 auto;
+    border-top: 10px solid #000000;
+    padding-top: 50px;
+}
+#sobreTitulo{
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#sobreP {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  #faqTitulo {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #somos ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #somos ol li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #somos ol li p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #somos ol li p:first-child {
+    font-weight: bold;
+    color: #666;
+  }
+#local{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 57px;
+    margin: 0 auto;
+    border-top: 10px solid #000000;
+    padding-top: 50px;
+}
+#localTitulo{
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#local p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #localA {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #localA:hover {
+    background-color: #444;
+  }
+  
+  #localA p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+  }
