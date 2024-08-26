@@ -81,12 +81,17 @@ main{
     margin-right: 17px;
     
 }
+.clientesLi{
+  list-style-type: none;
+  margin-right: 17px;
+}
 #somosLi{
     list-style-type: none;
     margin-right: 17px;
 }
 #localLi{
     list-style-type: none;
+    margin-right: 17px;
 
 }
 #servicosTitulo{
@@ -128,6 +133,7 @@ main{
   font-size: 24px;
   color: #333;
 }
+
 
 #servicosLista li p {
   font-size: 18px;
@@ -242,7 +248,7 @@ main{
   footer .credits {
     font-size: 16px;
     margin-bottom: 10px;
-    margin-top: 11px;
+    margin-top: 22px;
     text-align: center;
 
   }
@@ -252,3 +258,49 @@ main{
     text-align: center;
 
   }
+  .tabelaClientes {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tabelaClientes th, .tabelaClientes td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabelaClientes th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .tabelaClientes td {
+    background-color: #fff;
+  }
+  
+  .tabelaClientes tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabelaClientes tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .tabelaClientes img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+.clientesTitulo{
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.clientes{
+  display: flex;
+  flex-direction: column;
+  border-top: 10px solid #000000;
+  padding-top: 50px;
+}
