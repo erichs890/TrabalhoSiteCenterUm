@@ -1,2 +1,2 @@
 # TrabalhoSiteCenterUm
-Teste meu site aqui: https://erichs890.github.io/TrabalhoSiteCenterUm/
+Projeto inicial da cadeira de Desenvolvimento Web da faculdade
